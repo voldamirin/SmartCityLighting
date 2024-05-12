@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="SmartCityLighting.LightingManager">
+    <Position X="14" Y="5.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAgAAAAAAAAAAAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Singleton\LightingManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartCityLighting.LEDLight">
+    <Position X="22.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Light\LedLight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartCityLighting.Light">
+    <Position X="23.25" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ABAIAAAAAAAAAAIAAAAAAAAAAYAAAAAAQAAAAAAgAAA=</HashCode>
+      <FileName>Light\Light.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartCityLighting.TurnOffLightCommand" BaseTypeListCollapsed="true">
+    <Position X="29.5" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command\TurnOffLightCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SmartCityLighting.TurnOnLightCommand" BaseTypeListCollapsed="true">
+    <Position X="32.25" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command\TurnOnLightCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SmartCityLighting.LightStatusLogger" BaseTypeListCollapsed="true">
+    <Position X="35" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\LightStatusLogger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SmartCityLighting.LEDLightFactory">
+    <Position X="18" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\LEDLightFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartCityLighting.LightFactory">
+    <Position X="18" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\LightFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartCityLighting.LightProxy">
+    <Position X="20" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAA=</HashCode>
+      <FileName>Proxy\LightProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartCityLighting.ColorChangingLight">
+    <Position X="24.5" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAQAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\ColorChangingLight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartCityLighting.OldLight">
+    <Position X="27.25" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAQAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Adapter\OldLight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartCityLighting.OldLightAdapter">
+    <Position X="27.25" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQAAAAAAAAAA=</HashCode>
+      <FileName>Adapter\OldLightAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartCityLighting.LightingSystemFacade">
+    <Position X="20.5" Y="7.25" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Facade\LightingSystemFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartCityLighting.LightMemento" Collapsed="true">
+    <Position X="31.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Memonto\LightMemento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartCityLighting.Strategy.EnergySavingLightingStrategy" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Strategy\EnergySavingLightingStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="SmartCityLighting.ILightCommand">
+    <Position X="31" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command\ILightCommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SmartCityLighting.ILightObserver">
+    <Position X="35" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\ILightObserver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SmartCityLighting.ILightingStrategy">
+    <Position X="30.75" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Strategy\ILightingStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
